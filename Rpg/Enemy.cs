@@ -6,22 +6,26 @@ public class Enemy : Character, IAttacable
     
     public override string Name { get; set; }
     
+    public Inventory<Weapon> EnemyWeaponInventory { get; set; }
+    
+    public Inventory<Potion> EnemyPotionInventory { get; set; }
+    
     public Enemy(string name, int health)
     {
         Name = name;
         Health = health;
+        EnemyWeaponInventory = new Inventory<Weapon>();
+        EnemyPotionInventory = new Inventory<Potion>();
     }
 
     
     public override void Attack(Character target)
     {
         target.Health -= 1; 
-        Console.WriteLine($"Player {Name} attacks {target.Name}. {target.Name} has {target.Health} HP.");
     }
 
     public void TakeDamage(int amount)
     {
         Health -= amount;
-        Console.WriteLine($"Player {Name} was attacked and lost {amount} HP. Currently has {Health} HP.");
     }
 }

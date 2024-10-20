@@ -12,3 +12,4 @@ C:\Users\josef\Documents\DEV\Education\Rpg\obj\Debug\net8.0\refint\Rpg.dll
 C:\Users\josef\Documents\DEV\Education\Rpg\obj\Debug\net8.0\Rpg.pdb
 C:\Users\josef\Documents\DEV\Education\Rpg\obj\Debug\net8.0\Rpg.genruntimeconfig.cache
 C:\Users\josef\Documents\DEV\Education\Rpg\obj\Debug\net8.0\ref\Rpg.dll
+C:\Users\josef\Documents\DEV\Education\Rpg\obj\Debug\net8.0\Rpg.sourcelink.json

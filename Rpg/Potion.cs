@@ -1,21 +1,21 @@
 namespace Rpg;
 
-public class Potions
+public class Potion
 {
     public string PotionName { get; set; }
 }
 
-public class HealingPotion : Potions
+public class HealingPotion : Potion
 {
     public int HealthValue { get; set; }
 }
 
-public class MagicPotion : Potions
+public class MagicPotion : Potion
 {
     public int ManaValue { get; set; }
 }
 
-public class DexterityPotion : Potions
+public class DexterityPotion : Potion
 {
     public int DexterityValue { get; set; }
 }
